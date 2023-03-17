@@ -1,4 +1,4 @@
-#include <stdio.h>
+#!/bin/bash
 /**
  * main - this one is the main function
  *
