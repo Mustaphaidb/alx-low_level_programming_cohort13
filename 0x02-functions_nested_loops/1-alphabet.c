@@ -1,17 +1,18 @@
 #include "main.h"
-
 /**
- * Print_alphabet - Print all alphabet in lowercase
- * Description: 'TASK1' 
+ * print_alphabet - prints a to z
+ *
+ * Description: 'task 1'
+ *
+ * @void: does not take any parameters
+ *
  * Return: Always 0 (Success)
  */
-
 void print_alphabet(void)
 {
-	char letter;
+	char c = 'a';
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-
+	for (; c <= 'z'; c++)
+		_putchar(c);
 	_putchar('\n');
 }
