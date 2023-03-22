@@ -1,22 +1,22 @@
-#include <stdio.h>
-
-/* Description: This is Task0
- * Return: always success
- * main: Entry point
-*/
-
+#include "main.h"
+/**
+ * main - Entry point
+ *
+ * Description: 'task 0'
+ * @void: does not take any parameters
+ *
+ * Return: Always 0 (Success)
+ */
 
 int main(void)
-
 {
-	_putchar("_");
-	_putchar("p");
-	_putchar("u");
-	_putchar("t");
-	_putchar("c");
-	_putchar("h");
-	_putchar("a");
-	_putchar("r");
-	_putchar("\n");
+	char s[] = "_putchar";
+	int i;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		_putchar(s[i]);
+	}
+	_putchar('\n');
 	return (0);
 }
