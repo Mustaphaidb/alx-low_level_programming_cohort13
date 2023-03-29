@@ -1,4 +1,4 @@
-#include "main.h" 
+#include "main.h"
 /**
  * _strlen - length of string
  * Description: this is task 2
