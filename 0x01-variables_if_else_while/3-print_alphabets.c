@@ -1,9 +1,9 @@
 #include <stdio.h>
-
- main - Entry point
- Description: This is task 3
- Return: Always 0 
-
+/**
+ * main - is an Entry point
+ * Description: prints the alphabet in lowercase, and then in uppercase
+ * Return: Always 0
+*/
 int main(void)
 {
 	char c;
