@@ -1,19 +1,20 @@
 #include <stdio.h>
 /**
  * main - Entry Point
- * 
- * Description: Print alphabet except q and e using putchar 
- * 
+ *
+ * Description: Print alphabet except q and e using putchar
+ *
  * Return: 0 (Success)
  *
  */
-int main(void){
+int main(void)
+{
 
 	char c;
 
-	for (c = 'a'; c <= 'z'; c != q ; c++)
+	for (c = 'a'; c <= 'z'; c++)
 		{
-		if ( c == 'q' || c == 'e')
+		if (c == 'q' || c == 'e')
 		continue;
 		putchar(c);
 		}
